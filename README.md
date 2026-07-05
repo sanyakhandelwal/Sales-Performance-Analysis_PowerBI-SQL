@@ -408,7 +408,8 @@ Retail_Sales_Analysis_Power_BI/
 1. Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free).
 2. Clone the repository:
 ```bash
-   git clone https://github.com/deadlineZeus/Retail_Sales_Analysis_Power_BI.git
+  git clone https://github.com/sanyakhandelwal/retail-sales-analysis-powerbi.git
+
 ```
 3. Open `report/RetailSalesAnalysis.pbix` in Power BI Desktop.
 4. The raw source files are provided under `data/` so the model can be inspected and refreshed. If you reproduce the pipeline, update the source paths under **Transform data, Data source settings** to point at your local copies, and provide your own PostgreSQL connection for the products table.
